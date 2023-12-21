@@ -80,10 +80,9 @@ export function Header() {
               className="h-14 sm:hidden cursor-pointer"
             />
           </Link>
-          <div className="hidden md:inline-flex items-center space-x-5">
-            <h3 class="cursor-pointer"><a href="https://blog.kmnahidulislam.com">Home</a></h3>
-            <h3 class="cursor-pointer"><a href="https://www.kmnahidulislam.com">About</a></h3>
-            <h3 class="cursor-pointer"><a href="https://www.kmnahidulislam.com/#contact">Contact</a></h3>
+           <div className="hidden md:inline-flex items-center space-x-5">
+            <h3 className="cursor-pointer">About</h3>
+            <h3 className="cursor-pointer">Contact</h3>
             <h3
               onClick={Clickedfollow}
               className={`${
