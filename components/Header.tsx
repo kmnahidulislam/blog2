@@ -81,6 +81,9 @@ export function Header() {
             />
           </Link>
            <div className="hidden md:inline-flex items-center space-x-5">
+            <Link href="/about">
+        <h3 className="cursor-pointer">test</h3>
+      </Link>  
             <h3 className="cursor-pointer">About</h3>
             <h3 className="cursor-pointer">Contact</h3>
             <h3
